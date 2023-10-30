@@ -5,5 +5,5 @@ const resalt = document.getElementById('resalt')
 
 
 btn.onclick = function(){
-    resalt.textContent = Number(height.value) + Number(width.value)
+    resalt.textContent = Number(height.value) * Number(width.value)
 }
