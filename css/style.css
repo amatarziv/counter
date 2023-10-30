@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.content{
+    display: flex;
+    min-height: 500px;
+
+}
+.content_data{
+    width: 50%;
+    height: inherit;
+}
+.content_resalt{
+    width: 50%;
+    height: inherit;
+}
+fieldset{
+    height: 300px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+a{
+    text-decoration: none;
+}
+.content_resalt div{
+    align-content: center;
+    font-size: 200px;
+}
